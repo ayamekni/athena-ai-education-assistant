@@ -1,0 +1,1 @@
+Algorithm complexity is measured using Big O notation. Common complexities include O(1) constant time, O(log n) logarithmic, O(n) linear, O(n log n) linearithmic, O(n²) quadratic, and O(2^n) exponential time.

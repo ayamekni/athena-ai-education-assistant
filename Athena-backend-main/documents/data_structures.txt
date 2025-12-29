@@ -1,0 +1,1 @@
+Common data structures include arrays, linked lists, stacks, queues, trees, and graphs. Each has specific use cases and performance characteristics for different operations like insertion, deletion, and search.

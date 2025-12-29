@@ -1,0 +1,100 @@
+════════════════════════════════════════════════════════════
+ ⚠️  PYTHON INSTALLATION REQUIRED  ⚠️
+════════════════════════════════════════════════════════════
+
+Your system currently has NO working Python installation.
+
+The "python.exe" in WindowsApps is just a Microsoft Store 
+redirect and won't work for development.
+
+════════════════════════════════════════════════════════════
+ 📋 INSTALLATION STEPS
+════════════════════════════════════════════════════════════
+
+1. DOWNLOAD PYTHON
+   ────────────────
+   Open your browser and go to:
+   👉 https://www.python.org/downloads/
+   
+   Click the big yellow button: "Download Python 3.11.x"
+
+2. RUN THE INSTALLER
+   ──────────────────
+   ⚠️  CRITICAL STEP - DON'T SKIP! ⚠️
+   
+   Before clicking "Install Now":
+   ✅ CHECK the box: "Add python.exe to PATH"
+   
+   This is ESSENTIAL! Without it, Python won't work in PowerShell.
+   
+   Then click "Install Now"
+
+3. WAIT FOR INSTALLATION
+   ─────────────────────
+   The installer will download and install Python.
+   This takes about 2-5 minutes.
+   
+   You'll see a "Setup was successful" message when done.
+
+4. RESTART POWERSHELL
+   ──────────────────
+   Close ALL PowerShell windows and open a NEW one.
+   
+   Or simply restart your computer to be sure.
+
+5. VERIFY INSTALLATION
+   ───────────────────
+   Open NEW PowerShell and type:
+   
+   python --version
+   
+   You should see: Python 3.11.x
+
+════════════════════════════════════════════════════════════
+ 🚀 AFTER PYTHON IS INSTALLED
+════════════════════════════════════════════════════════════
+
+Come back to this folder and run:
+
+   .\install_all.bat
+
+This will automatically:
+✅ Install PyTorch with GPU support
+✅ Install all ATHENA dependencies
+✅ Test GPU availability
+✅ Verify everything is working
+
+Then you can:
+✅ Test the model: python test_athena_rag.py
+✅ Start server: uvicorn app.main:app --reload
+
+════════════════════════════════════════════════════════════
+ ❓ ALTERNATIVE: ANACONDA
+════════════════════════════════════════════════════════════
+
+If you prefer Anaconda (recommended for ML/AI):
+
+1. Download from: https://www.anaconda.com/download
+2. Install Anaconda
+3. Open "Anaconda Prompt" (not regular PowerShell)
+4. Navigate to this folder
+5. Run the installation commands
+
+════════════════════════════════════════════════════════════
+ 📞 NEED HELP?
+════════════════════════════════════════════════════════════
+
+Common issues:
+
+"Python not found after install"
+→ Did you check "Add to PATH"? Reinstall if you forgot.
+
+"Installation fails with permissions error"  
+→ Run PowerShell as Administrator
+
+"Which Python version?"
+→ Python 3.11 is best for AI/ML (NOT 3.12 yet)
+
+════════════════════════════════════════════════════════════
+
+Ready? Install Python, then come back here! 🚀

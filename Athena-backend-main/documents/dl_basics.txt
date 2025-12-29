@@ -1,0 +1,1 @@
+Deep Learning uses neural networks with multiple layers to analyze various data representations. It's particularly effective for image recognition, natural language processing, and speech recognition tasks.
